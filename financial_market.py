@@ -6,7 +6,7 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 from sklearn.feature_extraction.text import CountVectorizer
 
 # Load dataset
-df = pd.read_csv(r'/Users/moaviasiddiqui/Desktop/python/financial market/Financial Market News.csv', encoding="ISO-8859-1")
+df = pd.read_csv(r''C:\Users\Lenovo\Downloads\python\financial market\Financial Market News.csv', encoding="ISO-8859-1")
 
 # Check the dataset
 df.info()  # Ensure the columns are correct and the data is loaded
